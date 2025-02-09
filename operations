@@ -1,0 +1,41 @@
+Operations on Data Structures
+
+Operation	Description
+Insertion	Adding an element
+Deletion	Removing an element
+Searching	Finding an element
+Sorting	Arranging elements in order
+Traversal	Visiting all elements
+
+3. Important Concepts
+Time & Space Complexity
+
+Big-O Notation (e.g., O(1), O(n), O(log n)) determines efficiency.
+Example:
+Searching in an unsorted array → O(n)
+Searching in a binary search tree → O(log n)
+Recursion
+
+A function calls itself to solve smaller subproblems.
+Used in Tree Traversal, Factorial Calculation, Fibonacci Series.
+Example (Factorial Using Recursion):
+c
+Copy
+Edit
+int factorial(int n) {
+    if (n == 0) return 1;
+    return n * factorial(n - 1);
+}
+Hashing
+
+A technique to map data to a fixed-size table using hash functions.
+Used in Hash Tables, Caching, Database Indexing.
+
+4. Applications of Data Structures
+Data Structure	Applications
+Array	Used in CPU scheduling, databases, and caching
+Linked List	Memory management, undo operations in text editors
+Stack	Backtracking (e.g., maze solving, browser history)
+Queue	Task scheduling (e.g., printer queue, process scheduling)
+Tree	File systems, hierarchical databases
+Graph	Social networks, shortest path algorithms (Google Maps)
